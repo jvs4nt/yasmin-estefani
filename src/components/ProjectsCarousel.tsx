@@ -36,6 +36,18 @@ const ProjectsCarousel = () => {
       subtitle: "Power BI",
       description: "Aprendi a transformar dados e métricas em dashboards claros e impactantes. Explorando diferentes tipos de gráficos – colunas, linhas, mapas e KPIs – e aprendi a personalizar a aparência dos visuais, aplicando temas, cores e formatações.",
       link: "https://cdn3.gnarususercontent.com.br/4589-Praticando%20Power%20BI%20Criando%20Visualiza%C3%A7%C3%B5es%20Estrat%C3%A9gicas%20para%20Responder%20Perguntas%20de%20Neg%C3%B3cio/projeto-final-praticando-powerbi-dataviz.zip"
+    },
+    {
+      title: "Análise e Transformação de Dados com Data Science",
+      subtitle: "Google Colab",
+      description: "Realizei uma análise de dados utilizando Python e a biblioteca Pandas, explorando um conjunto de dados e extraindo insights valiosos.",
+      link: "https://colab.research.google.com/drive/18O2zAsQQ-yC46SdC9kbfjqiCdPqBMLxh?usp=sharing"
+    },
+    {
+      title: "Praticando Python",
+      subtitle: "Python",
+      description: "Sistema de gerenciamento de pedidos, treinando os princípios SOLID e padrões de design para organização de software. O sistema simula um processo de pagamento e envio de notificações e-mail e SMS.",
+      link: "https://github.com/yaesg17/treinando-python"
     }
   ];
 
