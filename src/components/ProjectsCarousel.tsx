@@ -20,34 +20,22 @@ const ProjectsCarousel = () => {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      subtitle: "React & Node.js",
-      description: "Uma plataforma completa de e-commerce com sistema de pagamentos, gerenciamento de estoque e painel administrativo. Desenvolvida com React, Node.js e MongoDB.",
-      link: "https://github.com/example/ecommerce"
+      title: "Análise com Data Science",
+      subtitle: "Google Colab",
+      description: "Treinando conhecimentos de Data Science com Python, Pandas e Matplotlib. Análise de dados reais para insights valiosos.",
+      link: "https://colab.research.google.com/drive/1GlhpMnae5hM2w1rHGuvVeTjuLfHx1Cfj?usp=sharing"
     },
     {
-      title: "App Mobile Fitness",
-      subtitle: "React Native",
-      description: "Aplicativo móvel para acompanhamento de exercícios e dieta. Inclui sistema de notificações, gráficos de progresso e integração com wearables.",
-      link: "https://github.com/example/fitness-app"
+      title: "Chatbot com Python",
+      subtitle: "Python",
+      description: "Desenvolvemos um chatbot dinâmico utilizando Python e a API do Gemini, projetado para responder às pessoas usuárias com base na definição de personas, permitindo uma interação personalizada.",
+      link: "https://github.com/yaesg17/Python-Gemini"
     },
     {
-      title: "Dashboard Analytics",
-      subtitle: "Vue.js & Python",
-      description: "Dashboard interativo para análise de dados empresariais com gráficos em tempo real, relatórios automáticos e sistema de alertas personalizáveis.",
-      link: "https://github.com/example/dashboard"
-    },
-    {
-      title: "API REST Microserviços",
-      subtitle: "Docker & Kubernetes",
-      description: "Arquitetura de microserviços robusta com containerização, orquestração e monitoramento. Inclui documentação completa e testes automatizados.",
-      link: "https://github.com/example/microservices"
-    },
-    {
-      title: "Sistema de Chat",
-      subtitle: "WebSocket & Redis",
-      description: "Sistema de chat em tempo real com salas privadas, compartilhamento de arquivos e notificações push. Suporta milhares de usuários simultâneos.",
-      link: "https://github.com/example/chat-system"
+      title: "Praticando Power BI",
+      subtitle: "Power BI",
+      description: "Aprendi a transformar dados e métricas em dashboards claros e impactantes. Explorando diferentes tipos de gráficos – colunas, linhas, mapas e KPIs – e aprendi a personalizar a aparência dos visuais, aplicando temas, cores e formatações.",
+      link: "https://cdn3.gnarususercontent.com.br/4589-Praticando%20Power%20BI%20Criando%20Visualiza%C3%A7%C3%B5es%20Estrat%C3%A9gicas%20para%20Responder%20Perguntas%20de%20Neg%C3%B3cio/projeto-final-praticando-powerbi-dataviz.zip"
     }
   ];
 
@@ -57,10 +45,10 @@ const ProjectsCarousel = () => {
         <div className="flex items-center justify-between mb-12">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Projetos
+              Meus projetos
             </h2>
             <p className="text-muted-foreground text-lg">
-              Alguns dos meus trabalhos recentes
+              Conheça alguns dos meus estudos recentes:
             </p>
           </div>
           

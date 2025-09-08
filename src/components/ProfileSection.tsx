@@ -1,4 +1,4 @@
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/perfil.jpeg";
 
 const ProfileSection = () => {
   return (
@@ -8,16 +8,16 @@ const ProfileSection = () => {
           <img
             src={profilePhoto}
             alt="Foto de perfil"
-            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-border shadow-lg"
+            className="w-40 h-40 md:w-40 md:h-40 rounded-full object-cover border-4 border-border shadow-lg"
           />
         </div>
         
         <div className="space-y-4">
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground tracking-tight">
-            Seu Nome
+          <h1 className="text-4xl md:text-8xl font-bold text-foreground tracking-tight">
+            Yasmin Estefani
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Desenvolvedor Full Stack
+            Meu portifólio de estudos e projetos
           </p>
         </div>
       </div>
