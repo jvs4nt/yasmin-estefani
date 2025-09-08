@@ -51,17 +51,21 @@ const ProjectsCarousel = () => {
     }
   ];
 
+  const pythonProjects = projects.filter(project => project.subtitle === "Python");
+  const googleColabProjects = projects.filter(project => project.subtitle === "Google Colab");
+  const powerBIProjects = projects.filter(project => project.subtitle === "Power BI");
+
   return (
     <section className="py-20 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-12">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Meus projetos
+              Python
             </h2>
-            <p className="text-muted-foreground text-lg">
+            {/* <p className="text-muted-foreground text-lg">
               Conheça alguns dos meus estudos recentes:
-            </p>
+            </p> */}
           </div>
           
           <div className="hidden md:flex space-x-2">
@@ -84,7 +88,93 @@ const ProjectsCarousel = () => {
 
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex gap-6">
-            {projects.map((project, index) => (
+            {pythonProjects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                title={project.title}
+                subtitle={project.subtitle}
+                description={project.description}
+                link={project.link}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto mt-16">
+        <div className="flex items-center justify-between mb-12">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Data Science
+            </h2>
+            {/* <p className="text-muted-foreground text-lg">
+              Conheça alguns dos meus estudos recentes:
+            </p> */}
+          </div>
+          
+          <div className="hidden md:flex space-x-2">
+            <button
+              onClick={scrollPrev}
+              className="p-2 rounded-lg border border-border hover:bg-accent transition-colors"
+              aria-label="Projeto anterior"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button
+              onClick={scrollNext}
+              className="p-2 rounded-lg border border-border hover:bg-accent transition-colors"
+              aria-label="Próximo projeto"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex gap-6">
+            {googleColabProjects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                title={project.title}
+                subtitle={project.subtitle}
+                description={project.description}
+                link={project.link}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto mt-16">
+        <div className="flex items-center justify-between mb-12">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Power BI
+            </h2>
+            {/* <p className="text-muted-foreground text-lg">
+              Conheça alguns dos meus estudos recentes:
+            </p> */}
+          </div>
+          
+          <div className="hidden md:flex space-x-2">
+            <button
+              onClick={scrollPrev}
+              className="p-2 rounded-lg border border-border hover:bg-accent transition-colors"
+              aria-label="Projeto anterior"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button
+              onClick={scrollNext}
+              className="p-2 rounded-lg border border-border hover:bg-accent transition-colors"
+              aria-label="Próximo projeto"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex gap-6">
+            {powerBIProjects.map((project, index) => (
               <ProjectCard
                 key={index}
                 title={project.title}
